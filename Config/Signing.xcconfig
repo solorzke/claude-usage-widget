@@ -1,0 +1,8 @@
+// Shared signing settings. Personal values live in Signing.local.xcconfig (git-ignored);
+// copy Signing.local.xcconfig.example to create it.
+DEVELOPMENT_TEAM =
+BUNDLE_ID_PREFIX = com.example
+
+#include? "Signing.local.xcconfig"
+
+APP_GROUP = $(DEVELOPMENT_TEAM).$(BUNDLE_ID_PREFIX).ClaudeUsage

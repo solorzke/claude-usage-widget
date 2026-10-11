@@ -1,0 +1,4 @@
+// Copy to Signing.local.xcconfig and fill in your own values.
+// Team ID: Xcode → Settings → Accounts, or the OU field of your "Apple Development" certificate.
+DEVELOPMENT_TEAM = YOURTEAMID
+BUNDLE_ID_PREFIX = com.yourname
